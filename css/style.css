@@ -18,8 +18,8 @@ a {
 /* UTILS */
 
 .container {
-  max-width: 1080p;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   padding: 0 15px;
 }
 
@@ -27,6 +27,11 @@ button {
   border: none;
   background-color: #0965ff;
   color: white;
+}
+
+.smaller-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* DEBUG */
@@ -77,24 +82,19 @@ header a {
 
 header .container {
   background-color: #b4d0e7;
-  display: flex;
-  justify-content: center;
 }
 
 header .container h1 {
   font-size: 5.5rem;
 }
 
-.container > div {
-  display: flex;
-  flex-direction: column;
+header .container .smaller-container {
   width: 70%;
   margin-top: 70px;
 }
 
 .jumbo {
   display: flex;
-  margin-top: 40px;
 }
 
 .jumbo button {
@@ -117,4 +117,24 @@ header .container h1 {
 .jumbo i {
   font-size: 3.5rem;
   margin-top: 100px;
+}
+
+/* MAIN */
+
+main .container {
+  margin-top: 120px;
+}
+
+main .container .smaller-container {
+  width: 60%;
+}
+
+.smaller-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.input_radio {
+  display: flex;
+  gap: 40px;
 }
