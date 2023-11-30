@@ -23,14 +23,95 @@ a {
   padding: 0 15px;
 }
 
+button {
+  border: none;
+  background-color: #0965ff;
+  color: white;
+}
+
 /* DEBUG */
 
 .debug {
   min-height: 80px;
-  background-color: #777;
+  /* background-color: #777; */
   padding: 2rem;
 }
 
 /* DROPBOX */
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* HEADER */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+header a {
+  text-decoration: none;
+  color: #797979;
+}
+
+.navbar button {
+  margin-left: 10px;
+  padding: 0px 10px;
+}
+
+header .container {
+  background-color: #b4d0e7;
+  display: flex;
+  justify-content: center;
+}
+
+header .container h1 {
+  font-size: 5.5rem;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 70px;
+}
+
+.jumbo {
+  display: flex;
+  margin-top: 40px;
+}
+
+.jumbo button {
+  padding: 10px 15px;
+  margin: 40px 0;
+}
+
+.jumbo > div:first-child {
+  line-height: 25px;
+  width: 30%;
+}
+
+.jumbo > div:last-child {
+  width: 70%;
+}
+
+.jumbo i {
+  font-size: 3.5rem;
+  margin-top: 150px;
+}
