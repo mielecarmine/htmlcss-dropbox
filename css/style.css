@@ -13,9 +13,10 @@ img {
 /* UTILS */
 
 .container {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
   padding: 0 15px;
+  margin: 0 auto;
+  width: 70%;
 }
 
 button {
@@ -27,7 +28,8 @@ button {
 
 .smaller-container {
   display: flex;
-  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* DEBUG */
@@ -78,6 +80,9 @@ header a {
 
 header .container {
   background-color: #b4d0e7;
+  justify-content: center;
+  display: flex;
+  width: 100%;
 }
 
 header .container h1 {
@@ -87,6 +92,7 @@ header .container h1 {
 header .container .smaller-container {
   width: 70%;
   margin-top: 70px;
+  flex-direction: column;
 }
 
 .jumbo {
@@ -120,8 +126,8 @@ main .container {
   margin-top: 120px;
 }
 
-main .container .smaller-container {
-  width: 60%;
+.smaller-container {
+  flex-direction: column;
 }
 
 .smaller-container h2 {
@@ -139,6 +145,7 @@ main .container .smaller-container {
   flex-wrap: wrap;
   margin-top: 30px;
   gap: 35px;
+  justify-content: space-between;
 }
 
 .card {
