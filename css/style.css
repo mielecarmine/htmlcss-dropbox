@@ -30,6 +30,8 @@ button {
   display: flex;
   width: 90%;
   margin: 0 auto;
+  margin-top: 120px;
+  flex-direction: column;
 }
 
 /* DEBUG */
@@ -92,7 +94,7 @@ header .container h1 {
 header .container .smaller-container {
   width: 70%;
   margin-top: 70px;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .jumbo {
@@ -122,13 +124,13 @@ header .container .smaller-container {
 
 /* MAIN */
 
-main .container {
+/* main .container {
   margin-top: 120px;
-}
+} */
 
-.smaller-container {
+/* .smaller-container.cards {
   flex-direction: column;
-}
+} */
 
 .smaller-container h2 {
   font-size: 2.5rem;
@@ -189,4 +191,37 @@ main .container {
 .container-cards div:last-child .card-body {
   width: 100%;
   display: flex;
+}
+
+.smaller-container.partner {
+  margin-top: 120px;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.smaller-container.partner img {
+  width: 60%;
+}
+
+.smaller-container.partner .text {
+  width: 40%;
+  padding: 40px 0;
+}
+
+.partner .text * {
+  margin-bottom: 20px;
+}
+
+.text p {
+  line-height: 20px;
+}
+
+.business .card-header,
+.card-body {
+  border: none;
+  padding: 0;
+}
+
+.smaller-container.business p {
+  margin-top: 30px;
 }
