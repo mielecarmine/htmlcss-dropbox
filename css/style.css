@@ -10,11 +10,6 @@ img {
   max-width: 100%;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 /* UTILS */
 
 .container {
@@ -27,6 +22,7 @@ button {
   border: none;
   background-color: #0965ff;
   color: white;
+  padding: 10px 15px;
 }
 
 .smaller-container {
@@ -98,7 +94,6 @@ header .container .smaller-container {
 }
 
 .jumbo button {
-  padding: 10px 15px;
   margin: 40px 0;
 }
 
@@ -137,4 +132,54 @@ main .container .smaller-container {
 .input_radio {
   display: flex;
   gap: 40px;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 35px;
+}
+
+.card {
+  width: calc(100% / 3 - 35px);
+}
+
+.card-header {
+  text-align: center;
+  border: 1px solid lightgray;
+  padding: 5px 10px;
+}
+
+.card-body {
+  padding: 20px 25px;
+  border: 1px solid lightgray;
+}
+
+.card-body ul {
+  list-style-position: outside;
+  padding: 15px;
+}
+
+.card-body button {
+  margin: 40px 0;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.card-body div:last-child {
+  margin-top: 30px;
+}
+
+.container-cards div:last-child {
+  width: 100%;
+}
+
+.container-cards div:last-child .card-header {
+  width: 100%;
+}
+
+.container-cards div:last-child .card-body {
+  width: 100%;
+  display: flex;
 }
