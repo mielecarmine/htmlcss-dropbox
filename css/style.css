@@ -180,18 +180,20 @@ header .container .smaller-container {
   margin-top: 30px;
 }
 
-.container-cards div:last-child {
+.card.full-width {
   width: 100%;
 }
 
-.container-cards div:last-child .card-header {
+/* .container-cards div:last-child .card-header {
   width: 100%;
 }
 
 .container-cards div:last-child .card-body {
   width: 100%;
   display: flex;
-}
+} */
+
+/* PARTNER */
 
 .smaller-container.partner {
   margin-top: 120px;
@@ -216,8 +218,10 @@ header .container .smaller-container {
   line-height: 20px;
 }
 
+/* BUSINESS */
+
 .business .card-header,
-.card-body {
+.business .card-body {
   border: none;
   padding: 0;
 }
