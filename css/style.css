@@ -254,4 +254,13 @@ header .container .smaller-container {
 .four-imgs div {
   width: calc(100% / 2);
   height: calc(100% / 2);
+  filter: invert(1);
+}
+
+.light-green {
+  background-color: #a2d39b;
+}
+
+.magenta {
+  background-color: #61082b;
 }
