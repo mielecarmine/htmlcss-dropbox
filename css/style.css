@@ -34,14 +34,6 @@ button {
   flex-direction: column;
 }
 
-/* DEBUG */
-
-.debug {
-  min-height: 80px;
-  /* background-color: #777; */
-  padding: 2rem;
-}
-
 /* DROPBOX */
 
 body {
@@ -132,7 +124,7 @@ header .container .smaller-container {
   flex-direction: column;
 } */
 
-.smaller-container h2 {
+.smaller-container.cards h2 {
   font-size: 2.5rem;
   margin-bottom: 50px;
 }
@@ -228,4 +220,38 @@ header .container .smaller-container {
 
 .smaller-container.business p {
   margin-top: 30px;
+}
+
+.smaller-container.business h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  width: 60%;
+  margin-top: 100px;
+}
+
+/* IMG SECTION */
+
+.debug {
+  border: 2px solid black;
+}
+
+.img-section {
+  display: flex;
+  margin-top: 80px;
+}
+
+.img-section div {
+  width: calc(100vw / 3);
+  height: calc(100vw / 3);
+}
+
+.four-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.four-imgs div {
+  width: calc(100% / 2);
+  height: calc(100% / 2);
 }
