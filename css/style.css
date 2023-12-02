@@ -237,7 +237,7 @@ header .container .smaller-container {
 
 .img-section {
   display: flex;
-  margin-top: 80px;
+  margin-top: 200px;
 }
 
 .img-section div {
@@ -254,13 +254,84 @@ header .container .smaller-container {
 .four-imgs div {
   width: calc(100% / 2);
   height: calc(100% / 2);
-  filter: invert(1);
 }
 
-.light-green {
-  background-color: #a2d39b;
+.designit {
+  padding: 30px;
 }
 
-.magenta {
-  background-color: #61082b;
+.designit p {
+  margin-top: 30px;
+}
+
+.celeste {
+  background-color: #b4d0e7;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.celeste > .smaller-container {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+  margin-top: 0;
+}
+
+.celeste .smaller-container h2 {
+  color: #630d2d;
+  font-size: 2.5rem;
+  width: 50%;
+}
+
+.celeste .smaller-container button {
+  background-color: white;
+  color: black;
+}
+
+/* FAQ SECTION */
+
+.smaller-container.faq h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+#first-question {
+  border-top: 2px solid #a2a2a2;
+}
+
+.smaller-container.faq .question {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  padding-right: 50px;
+  border-bottom: 2px solid #a2a2a2;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  margin-top: 120px;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .smaller-container {
+  flex-direction: row;
+  padding-top: 60px;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.Dropbox-card h3 {
+  margin-bottom: 25px;
+}
+
+.card-links {
+  line-height: 35px;
 }
