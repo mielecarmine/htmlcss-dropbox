@@ -323,9 +323,14 @@ footer a {
 
 footer .smaller-container {
   flex-direction: row;
+  flex-wrap: wrap;
   padding-top: 60px;
   justify-content: space-between;
   width: 70%;
+}
+
+.Dropbox-card {
+  width: calc(100% / 5);
 }
 
 .Dropbox-card h3 {
@@ -334,4 +339,13 @@ footer .smaller-container {
 
 .card-links {
   line-height: 35px;
+}
+
+.language {
+  display: flex;
+  gap: 10px;
+  margin: 95px 0;
+  border-top: 2px solid lightgray;
+  padding: 40px 0;
+  color: lightgray;
 }
